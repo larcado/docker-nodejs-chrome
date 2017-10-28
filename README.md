@@ -6,7 +6,7 @@ latest node.js (with npm) + latest stable Google Chrome
 | Package name | Version |
 | ------ | ------ |
 | node.js | v8.8.1 |
-| npm | 5.4.1 |
+| npm | 5.4.2 |
 | Google Chrome | 62.0.3202.75 |
 
 ### using example
