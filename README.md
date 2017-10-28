@@ -1,10 +1,18 @@
-# docker-nodejs-chrome #
+# larcado/nodejs-chrome
 
-latest node.js (with npm) + latest Google Chrome for e.g. automated ChromeHeadless test with CI
+latest node.js (with npm) + latest stable Google Chrome
 
-## using example ##
+## bundled with latest image
+| Package name | Version |
+| ------ | ------ |
+| node.js | v8.8.1 |
+| npm | 5.4.1 |
+| Google Chrome | 62.0.3202.75 |
 
-Can be used for automated build of Angular 4 App with testing by Karma
+### using example
 
-`ng test --single-run=true --browsers ChromeHeadless --watch=false`
+Can be used for automated CI build of Angular 4 App with testing by Karma
 
+```sh
+$ ng test --single-run=true --watch=false --browsers Chrom Headless
+```
