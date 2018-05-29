@@ -1,6 +1,9 @@
 FROM node:latest
 LABEL name="nodejs-chrome"
 
+# Update npm to latest version
+RUN npm install -g npm
+
 # Install latest stable Google Chrome
 RUN echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' > /etc/apt/sources.list.d/google.list
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
