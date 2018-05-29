@@ -5,9 +5,9 @@ latest node.js (with npm) + latest stable Google Chrome
 ## bundled with latest image
 | Package name | Version |
 | ------ | ------ |
-| node.js | v10.0.0 |
+| node.js | v10.2.1 |
 | npm | 5.6.0 |
-| Google Chrome | 66.0.3359.139 |
+| Google Chrome | 66.0.3359.181 |
 
 ### using example
 
